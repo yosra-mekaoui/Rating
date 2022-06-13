@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="continer-fluid">
+			<a class="navbar-brand" href="https://sourcecodester.com">Sourcecodester</a>
+		</div>
+	</nav>
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">JavaScript - Simple Star Rating</h3>
+		<hr style="border-top:1px dotted #ccc;"/>
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<div>
+				<h3>Rating:</h3>
+				<span id="1" style="font-size:45px; cursor:pointer;"  class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)" ></span>
+				<span id="2"  style="font-size:45px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+				<span id="3"  style="font-size:45px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+				<span id="4"  style="font-size:45px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+				<span id="5"  style="font-size:45px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+			</div>
+			<br />
+			<div class="form-group">
+				<h3>Review:</h3>
+				<textarea id="review" class="form-control" style="resize:none; height:100px;"></textarea>
+			</div>
+			<center><button class="btn btn-success" onclick="result()">SUBMIT</button></center>
+			<div id="result"></div>
+		</div>
+	</div>
+<script src="js/script.js"></script>	
+</body>
+</html>
